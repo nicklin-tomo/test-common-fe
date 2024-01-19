@@ -14,7 +14,7 @@
     "./utils/*": "./src/utils/*.js"
   },
   "files": [
-    "src"
+    "build"
   ],
   "devDependencies": {
     "@babel/cli": "^7.23.4",
