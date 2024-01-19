@@ -8,10 +8,10 @@
     "prepare": "npm run build"
   },
   "exports": {
-    ".": "./src/index.js",
-    "./*": "./src/*.js",
-    "./*.js": "./src/*.js",
-    "./utils/*": "./src/utils/*.js"
+    ".": "./build/index.js",
+    "./*": "./build/*.js",
+    "./*.js": "./build/*.js",
+    "./utils/*": "./build/utils/*.js"
   },
   "files": [
     "build"
