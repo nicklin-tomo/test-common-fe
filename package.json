@@ -1,4 +1,8 @@
 {
+  "name": "@tomocredit/common-fe",
+  "private": true,
+  "version": "0.1.0",
+  "author": "TOMOCREDIT",
   "scripts": {
     "build": "babel src -d build",
     "prepare": "npm run build"
