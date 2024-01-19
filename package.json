@@ -7,6 +7,15 @@
     "build": "babel src -d build",
     "prepare": "npm run build"
   },
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*.js",
+    "./*.js": "./src/*.js",
+    "./utils/*": "./src/utils/*.js"
+  },
+  "files": [
+    "src"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.7",
